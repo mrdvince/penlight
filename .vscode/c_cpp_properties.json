@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/python3.8/**"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/extern/pybind11/include/pybind11/pybind11.h"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/c++",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

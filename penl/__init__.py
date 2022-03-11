@@ -1,1 +1,1 @@
-from .tensor import tensor, matmul, eye  # noqa: F401
+from ._tensor import tensor, matmul, eye  # noqa: F401
